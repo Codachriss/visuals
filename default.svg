@@ -1,0 +1,43 @@
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+            <style>
+                .title { font-size: 24px; font-weight: bold; font-family: Arial; }
+                .milestone { font-size: 16px; font-family: Arial; }
+                .phase { font-size: 18px; font-weight: bold; font-family: Arial; }
+                .date { font-size: 14px; font-style: italic; font-family: Arial; }
+            </style>
+            <rect width="800" height="500" fill="#f8f9fa" />
+            <text x="400" y="50" class="title" text-anchor="middle">{{TITLE}}</text>
+
+            <!-- Timeline -->
+            <line x1="100" y1="150" x2="700" y2="150" stroke="#333" stroke-width="4" />
+
+            <!-- Phase 1 -->
+            <circle cx="150" cy="150" r="20" fill="#4285F4" />
+            <text x="150" y="120" class="phase" text-anchor="middle">Phase 1</text>
+            <text x="150" y="190" class="milestone" text-anchor="middle">{{MILESTONE_1}}</text>
+            <text x="150" y="210" class="date" text-anchor="middle">{{DATE_1}}</text>
+
+            <!-- Phase 2 -->
+            <circle cx="300" cy="150" r="20" fill="#EA4335" />
+            <text x="300" y="120" class="phase" text-anchor="middle">Phase 2</text>
+            <text x="300" y="190" class="milestone" text-anchor="middle">{{MILESTONE_2}}</text>
+            <text x="300" y="210" class="date" text-anchor="middle">{{DATE_2}}</text>
+
+            <!-- Phase 3 -->
+            <circle cx="450" cy="150" r="20" fill="#FBBC05" />
+            <text x="450" y="120" class="phase" text-anchor="middle">Phase 3</text>
+            <text x="450" y="190" class="milestone" text-anchor="middle">{{MILESTONE_3}}</text>
+            <text x="450" y="210" class="date" text-anchor="middle">{{DATE_3}}</text>
+
+            <!-- Phase 4 -->
+            <circle cx="600" cy="150" r="20" fill="#34A853" />
+            <text x="600" y="120" class="phase" text-anchor="middle">Phase 4</text>
+            <text x="600" y="190" class="milestone" text-anchor="middle">{{MILESTONE_4}}</text>
+            <text x="600" y="210" class="date" text-anchor="middle">{{DATE_4}}</text>
+
+            <!-- Description -->
+            <rect x="100" y="250" width="600" height="200" fill="white" stroke="#ddd" />
+            <text x="120" y="280" font-family="Arial" font-size="16">{{DESCRIPTION}}</text>
+        </svg>
+        

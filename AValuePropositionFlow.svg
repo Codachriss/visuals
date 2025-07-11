@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300">
+  <!-- Step 1 -->
+  <g transform="translate(50, 50)">
+    <!-- Icon -->
+    <circle cx="40" cy="40" r="25" fill="#ffd700"/>
+    <path d="M30,40 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0 M45,45 l8,8" 
+          fill="none" stroke="white" stroke-width="2"/>
+    
+    <!-- Pill Shape -->
+    <rect x="0" y="80" width="200" height="60" rx="30" fill="#ffd700"/>
+    <text x="50" y="115" fill="white" font-size="24" font-weight="bold">{{NUM1}}</text>
+
+    
+    <!-- Title and Content -->
+    <text x="100" y="170" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffd700">{{TITLE1}}</text>
+    <g transform="translate(10, 190)">
+      <text x="90" y="0" text-anchor="middle" font-size="12" fill="#666">{{TEXT1_1}}</text>
+      <text x="90" y="20" text-anchor="middle" font-size="12" fill="#666">{{TEXT1_2}}</text>
+      <text x="90" y="40" text-anchor="middle" font-size="12" fill="#666">{{TEXT1_3}}</text>
+    </g>
+  </g>
+
+  <!-- Step 2 -->
+  <g transform="translate(300, 50)">
+    <!-- Icon -->
+    <circle cx="40" cy="40" r="25" fill="#8ba3b9"/>
+    <path d="M30,40 h20 M40,30 v20 M33,33 l14,14" 
+          fill="none" stroke="white" stroke-width="2"/>
+    
+    <!-- Pill Shape -->
+    <rect x="0" y="80" width="200" height="60" rx="30" fill="#8ba3b9"/>
+    <text x="50" y="115" fill="white" font-size="24" font-weight="bold">{{NUM2}}</text>
+
+    <!-- Title and Content -->
+    <text x="100" y="170" text-anchor="middle" font-size="16" font-weight="bold" fill="#8ba3b9">{{TITLE2}}</text>
+    <g transform="translate(10, 190)">
+      <text x="90" y="0" text-anchor="middle" font-size="12" fill="#666">{{TEXT2_1}}</text>
+      <text x="90" y="20" text-anchor="middle" font-size="12" fill="#666">{{TEXT2_2}}</text>
+      <text x="90" y="40" text-anchor="middle" font-size="12" fill="#666">{{TEXT2_3}}</text>
+    </g>
+  </g>
+
+  <!-- Step 3 -->
+  <g transform="translate(550, 50)">
+    <!-- Icon -->
+    <circle cx="40" cy="40" r="25" fill="#40c4a9"/>
+    <path d="M30,40 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0" 
+          fill="none" stroke="white" stroke-width="2"/>
+    
+    <!-- Pill Shape -->
+    <rect x="0" y="80" width="200" height="60" rx="30" fill="#40c4a9"/>
+    <text x="50" y="115" fill="white" font-size="24" font-weight="bold">{{NUM3}}</text>
+
+    
+    <!-- Title and Content -->
+    <text x="100" y="170" text-anchor="middle" font-size="16" font-weight="bold" fill="#40c4a9">{{TITLE3}}</text>
+    <g transform="translate(10, 190)">
+      <text x="90" y="0" text-anchor="middle" font-size="12" fill="#666">{{TEXT3_1}}</text>
+      <text x="90" y="20" text-anchor="middle" font-size="12" fill="#666">{{TEXT3_2}}</text>
+      <text x="90" y="40" text-anchor="middle" font-size="12" fill="#666">{{TEXT3_3}}</text>
+    </g>
+  </g>
+
+  <!-- Step 4 -->
+  <g transform="translate(800, 50)">
+    <!-- Icon -->
+    <circle cx="40" cy="40" r="25" fill="#4095e5"/>
+    <path d="M30,40 h20 M40,30 l0,20 M35,35 l10,10 l-10,10" 
+          fill="none" stroke="white" stroke-width="2"/>
+    
+    <!-- Pill Shape -->
+    <rect x="0" y="80" width="200" height="60" rx="30" fill="#4095e5"/>
+    <text x="50" y="115" fill="white" font-size="24" font-weight="bold">{{NUM4}}</text>
+  
+    
+    <!-- Title and Content -->
+    <text x="100" y="170" text-anchor="middle" font-size="16" font-weight="bold" fill="#4095e5">{{TITLE4}}</text>
+    <g transform="translate(10, 190)">
+      <text x="90" y="0" text-anchor="middle" font-size="12" fill="#666">{{TEXT4_1}}</text>
+      <text x="90" y="20" text-anchor="middle" font-size="12" fill="#666">{{TEXT4_2}}</text>
+      <text x="90" y="40" text-anchor="middle" font-size="12" fill="#666">{{TEXT4_3}}</text>
+    </g>
+  </g>
+</svg>

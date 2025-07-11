@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300">
+  <!-- Title -->
+  <text x="450" y="40" text-anchor="middle" font-size="20" font-weight="bold" fill="#333">{{TITLE}}</text>
+  <line x1="375" y1="45" x2="525" y2="45" stroke="#00796b" stroke-width="2"/>
+
+  <!-- Circular Elements with Icons -->
+  <g transform="translate(50, 150)">
+    <!-- Phase 1 -->
+    <g transform="translate(0, 0)">
+      <circle cx="70" cy="0" r="35" fill="#00796b"/>
+      <circle cx="70" cy="0" r="30" fill="white"/>
+      <circle cx="70" cy="0" r="28" fill="#00796b"/>
+      <!-- User Icon -->
+      <path d="M70,0 m-12,-8 a12,12 0 1,0 24,0 a12,12 0 1,0 -24,0 M58,4 a20,20 0 0,0 24,0" 
+            fill="none" stroke="white" stroke-width="2"/>
+      <text x="70" y="-45" text-anchor="middle" font-size="14" fill="#00796b">{{MILESTONE_1}}</text>
+
+      <!-- Description -->
+      <text x="70" y="60" text-anchor="middle" font-size="12" fill="#444" data-max-width="140">{{DESCRIPTION_1}}</text>
+      <text x="70" y="100" text-anchor="middle" font-size="10" fill="#666" width="120">{{ATTRIBUTE_1_1}}</text>
+      <text x="70" y="115" text-anchor="middle" font-size="10" fill="#666">{{ATTRIBUTE_1_2}}</text>
+    </g>
+
+    <!-- Phase 2 -->
+    <g transform="translate(130, 0)">
+      <circle cx="70" cy="0" r="35" fill="#00acc1"/>
+      <circle cx="70" cy="0" r="30" fill="white"/>
+      <circle cx="70" cy="0" r="28" fill="#00acc1"/>
+      <!-- Clock Icon -->
+      <circle cx="70" cy="0" r="15" fill="none" stroke="white" stroke-width="2"/>
+      <path d="M70,-5 L70,0 L75,5" stroke="white" stroke-width="2" fill="none"/>
+      <text x="70" y="-45" text-anchor="middle" font-size="14" fill="#00acc1">{{MILESTONE_2}}</text>
+
+      <text x="70" y="60" text-anchor="middle" font-size="12" fill="#444" data-max-width="140">{{DESCRIPTION_2}}</text>
+      <text x="70" y="100" text-anchor="middle" font-size="10" fill="#666">{{ATTRIBUTE_2_1}}</text>
+      <text x="70" y="115" text-anchor="middle" font-size="10" fill="#666">{{ATTRIBUTE_2_2}}</text>
+    </g>
+
+    <!-- Phase 3 -->
+    <g transform="translate(260, 0)">
+      <circle cx="70" cy="0" r="35" fill="#7cb342"/>
+      <circle cx="70" cy="0" r="30" fill="white"/>
+      <circle cx="70" cy="0" r="28" fill="#7cb342"/>
+      <!-- Gears Icon -->
+      <path d="M70,0 m-10,-10 h20 v20 h-20 z" fill="none" stroke="white" stroke-width="2"/>
+      <path d="M65,-5 L75,5 M65,5 L75,-5" stroke="white" stroke-width="2"/>
+      <text x="70" y="-45" text-anchor="middle" font-size="14" fill="#7cb342">{{MILESTONE_3}}</text>
+
+      <text x="70" y="60" text-anchor="middle" font-size="12" fill="#444" data-max-width="140">{{DESCRIPTION_3}}</text>
+      <text x="70" y="100" text-anchor="middle" font-size="10" fill="#666">{{ATTRIBUTE_3_1}}</text>
+      <text x="70" y="115" text-anchor="middle" font-size="10" fill="#666">{{ATTRIBUTE_3_2}}</text>
+    </g>
+
+    <!-- Phase 4 -->
+    <g transform="translate(390, 0)">
+      <circle cx="70" cy="0" r="35" fill="#ffa000"/>
+      <circle cx="70" cy="0" r="30" fill="white"/>
+      <circle cx="70" cy="0" r="28" fill="#ffa000"/>
+      <!-- Handshake Icon -->
+      <path d="M60,-5 C65,-5 65,5 70,5 C75,5 75,-5 80,-5" fill="none" stroke="white" stroke-width="2"/>
+      <text x="70" y="-45" text-anchor="middle" font-size="14" fill="#ffa000">{{MILESTONE_4}}</text>
+
+      <text x="70" y="60" text-anchor="middle" font-size="12" fill="#444" data-max-width="140">{{DESCRIPTION_4}}</text>
+      <text x="70" y="100" text-anchor="middle" font-size="10" fill="#666">{{ATTRIBUTE_4_1}}</text>
+      <text x="70" y="115" text-anchor="middle" font-size="10" fill="#666">{{ATTRIBUTE_4_2}}</text>
+    </g>
+
+    <!-- Phase 5 -->
+    <g transform="translate(520, 0)">
+      <circle cx="70" cy="0" r="35" fill="#e64a19"/>
+      <circle cx="70" cy="0" r="30" fill="white"/>
+      <circle cx="70" cy="0" r="28" fill="#e64a19"/>
+      <!-- Graph Icon -->
+      <path d="M60,5 L70,-5 L80,5" fill="none" stroke="white" stroke-width="2"/>
+      <text x="70" y="-45" text-anchor="middle" font-size="14" fill="#e64a19">{{MILESTONE_5}}</text>
+
+      <text x="70" y="60" text-anchor="middle" font-size="12" fill="#444" data-max-width="140">{{DESCRIPTION_5}}</text>
+      <text x="70" y="100" text-anchor="middle" font-size="10" fill="#666">{{ATTRIBUTE_5_1}}</text>
+      <text x="70" y="115" text-anchor="middle" font-size="10" fill="#666">{{ATTRIBUTE_5_2}}</text>
+    </g>
+
+    <!-- Phase 6 -->
+    <g transform="translate(650, 0)">
+      <circle cx="70" cy="0" r="35" fill="#c2185b"/>
+      <circle cx="70" cy="0" r="30" fill="white"/>
+      <circle cx="70" cy="0" r="28" fill="#c2185b"/>
+      <!-- Globe Icon -->
+      <circle cx="70" cy="0" r="12" fill="none" stroke="white" stroke-width="2"/>
+      <path d="M58,0 h24 M70,-12 v24" stroke="white" stroke-width="2"/>
+      <text x="70" y="-45" text-anchor="middle" font-size="14" fill="#c2185b">{{MILESTONE_6}}</text>
+
+      <text x="70" y="60" text-anchor="middle" font-size="12" fill="#444" data-max-width="140">{{DESCRIPTION_6}}</text>
+      <text x="70" y="100" text-anchor="middle" font-size="10" fill="#666">{{ATTRIBUTE_6_1}}</text>
+      <text x="70" y="115" text-anchor="middle" font-size="10" fill="#666">{{ATTRIBUTE_6_2}}</text>
+    </g>
+
+    <!-- Connecting Lines -->
+    <g stroke="#ccc" stroke-width="1">
+      <line x1="70" y1="-40" x2="70" y2="-90"/>
+      <line x1="200" y1="-40" x2="200" y2="-90"/>
+      <line x1="330" y1="-40" x2="330" y2="-90"/>
+      <line x1="460" y1="-40" x2="460" y2="-90"/>
+      <line x1="590" y1="-40" x2="590" y2="-90"/>
+      <line x1="720" y1="-40" x2="720" y2="-90"/>
+    </g>
+  </g>
+</svg>

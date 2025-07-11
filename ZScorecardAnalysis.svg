@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800">
+  <!-- Definitions -->
+  <defs>
+    <!-- Drop Shadow Filter -->
+    <filter id="cardShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.1"/>
+    </filter>
+    
+    <!-- Gradient Definitions -->
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4158D0"/>
+      <stop offset="100%" style="stop-color:#C850C0"/>
+    </linearGradient>
+    
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#43e97b"/>
+      <stop offset="100%" style="stop-color:#38f9d7"/>
+    </linearGradient>
+    
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fa709a"/>
+      <stop offset="100%" style="stop-color:#fee140"/>
+    </linearGradient>
+    
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a8edea"/>
+      <stop offset="100%" style="stop-color:#fed6e3"/>
+    </linearGradient>
+    
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2196F3"/>
+      <stop offset="100%" style="stop-color:#6D28D9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1000" height="800" fill="#f8fafc"/>
+
+  <!-- Title -->
+  <text x="500" y="100" text-anchor="middle" font-size="24" fill="#1e293b" font-weight="bold">{{TITLE}}</text>
+
+  <!-- Left Column -->
+  <g transform="translate(50, 140)">
+    <!-- Competitor 1 -->
+    <g filter="url(#cardShadow)">
+      <rect x="0" y="0" width="400" height="100" rx="15" fill="white" stroke="#4158D0" stroke-width="2"/>
+      <rect x="0" y="0" width="8" height="100" fill="url(#blueGrad)" rx="4"/>
+      <text x="40" y="25" font-size="14" font-weight="bold" fill="#1e293b">{{COMPANY_1}}</text>
+      <g transform="translate(40, 45)">
+        <circle cx="-15" cy="0" r="3" fill="#4158D0"/>
+        <text x="0" y="4" font-size="11" fill="#64748b">Features:</text>
+        <text x="55" y="4" font-size="11" fill="#1e293b" font-weight="bold" data-max-width="320">{{FEATURE_1}}</text>
+      </g>
+      <g transform="translate(40, 65)">
+        <circle cx="-15" cy="0" r="3" fill="#4158D0"/>
+        <text x="0" y="4" font-size="11" fill="#64748b">Pricing:</text>
+        <text x="55" y="4" font-size="11" fill="#1e293b" font-weight="bold" data-max-width="320">{{PRICING_1}}</text>
+      </g>
+    </g>
+
+    <!-- Competitor 2 -->
+    <g transform="translate(0, 110)" filter="url(#cardShadow)">
+      <rect x="0" y="0" width="400" height="100" rx="15" fill="white" stroke="#43e97b" stroke-width="2"/>
+      <rect x="0" y="0" width="8" height="100" fill="url(#greenGrad)" rx="4"/>
+      <text x="40" y="25" font-size="14" font-weight="bold" fill="#1e293b">{{COMPANY_2}}</text>
+      <g transform="translate(40, 45)">
+        <circle cx="-15" cy="0" r="3" fill="#43e97b"/>
+        <text x="0" y="4" font-size="11" fill="#64748b">Features:</text>
+        <text x="55" y="4" font-size="11" fill="#1e293b" font-weight="bold" data-max-width="320">{{FEATURE_2}}</text>
+      </g>
+      <g transform="translate(40, 65)">
+        <circle cx="-15" cy="0" r="3" fill="#43e97b"/>
+        <text x="0" y="4" font-size="11" fill="#64748b">Pricing:</text>
+        <text x="55" y="4" font-size="11" fill="#1e293b" font-weight="bold" data-max-width="320">{{PRICING_2}}</text>
+      </g>
+    </g>
+
+    <!-- Our Strategic Advantage -->
+    <g transform="translate(0, 220)" filter="url(#cardShadow)">
+      <rect x="0" y="0" width="400" height="120" rx="15" fill="white" stroke="#f59e0b" stroke-width="2"/>
+      <rect x="0" y="0" width="8" height="120" fill="#f59e0b" rx="4"/>
+      <text x="40" y="25" font-size="14" font-weight="bold" fill="#1e293b">Our Strategic Advantage</text>
+      <g transform="translate(40, 50)">
+        <circle cx="-15" cy="0" r="3" fill="#f59e0b"/>
+        <text x="0" y="4" font-size="11" fill="#64748b">Key Differentiator:</text>
+        <text x="110" y="4" font-size="11" fill="#1e293b" font-weight="bold" data-max-width="260">Real-time analytics with enterprise security</text>
+      </g>
+      <g transform="translate(40, 80)">
+        <circle cx="-15" cy="0" r="3" fill="#f59e0b"/>
+        <text x="0" y="4" font-size="11" fill="#64748b">Competitive Pricing:</text>
+        <text x="110" y="4" font-size="11" fill="#1e293b" font-weight="bold" data-max-width="260">$1000-5000/month flexible tiers</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Column -->
+  <g transform="translate(500, 140)">
+    <!-- Competitor 3 -->
+    <g filter="url(#cardShadow)">
+      <rect x="0" y="0" width="400" height="100" rx="15" fill="white" stroke="#8B5CF6" stroke-width="2"/>
+      <rect x="0" y="0" width="8" height="100" fill="url(#purpleGrad)" rx="4"/>
+      <text x="40" y="25" font-size="14" font-weight="bold" fill="#1e293b">{{COMPANY_3}}</text>
+      <g transform="translate(40, 45)">
+        <circle cx="-15" cy="0" r="3" fill="#8B5CF6"/>
+        <text x="0" y="4" font-size="11" fill="#64748b">Features:</text>
+        <text x="55" y="4" font-size="11" fill="#1e293b" font-weight="bold" data-max-width="320">{{FEATURE_3}}</text>
+      </g>
+      <g transform="translate(40, 65)">
+        <circle cx="-15" cy="0" r="3" fill="#8B5CF6"/>
+        <text x="0" y="4" font-size="11" fill="#64748b">Pricing:</text>
+        <text x="55" y="4" font-size="11" fill="#1e293b" font-weight="bold" data-max-width="320">{{PRICING_3}}</text>
+      </g>
+    </g>
+
+    <!-- Competitor 4 -->
+    <g transform="translate(0, 110)" filter="url(#cardShadow)">
+      <rect x="0" y="0" width="400" height="100" rx="15" fill="white" stroke="#f97316" stroke-width="2"/>
+      <rect x="0" y="0" width="8" height="100" fill="#f97316" rx="4"/>
+      <text x="40" y="25" font-size="14" font-weight="bold" fill="#1e293b">{{COMPANY_4}}</text>
+      <g transform="translate(40, 45)">
+        <circle cx="-15" cy="0" r="3" fill="#f97316"/>
+        <text x="0" y="4" font-size="11" fill="#64748b">Features:</text>
+        <text x="55" y="4" font-size="11" fill="#1e293b" font-weight="bold" data-max-width="320">{{FEATURE_4}}</text>
+      </g>
+      <g transform="translate(40, 65)">
+        <circle cx="-15" cy="0" r="3" fill="#f97316"/>
+        <text x="0" y="4" font-size="11" fill="#64748b">Pricing:</text>
+        <text x="55" y="4" font-size="11" fill="#1e293b" font-weight="bold" data-max-width="320">{{PRICING_4}}</text>
+      </g>
+    </g>
+
+    <!-- Market Intelligence -->
+    <g transform="translate(0, 220)" filter="url(#cardShadow)">
+      <rect x="0" y="0" width="400" height="120" rx="15" fill="white" stroke="#6b7280" stroke-width="2"/>
+      <rect x="0" y="0" width="8" height="120" fill="#6b7280" rx="4"/>
+      <text x="40" y="25" font-size="14" font-weight="bold" fill="#1e293b">Market Intelligence</text>
+      <g transform="translate(40, 50)">
+        <circle cx="-15" cy="0" r="3" fill="#6b7280"/>
+        <text x="0" y="4" font-size="11" fill="#64748b">Competitive Landscape:</text>
+        <text x="130" y="4" font-size="11" fill="#1e293b" font-weight="bold" data-max-width="240">4 major players analyzed</text>
+      </g>
+      <g transform="translate(40, 80)">
+        <circle cx="-15" cy="0" r="3" fill="#6b7280"/>
+        <text x="0" y="4" font-size="11" fill="#64748b">Our Position:</text>
+        <text x="80" y="4" font-size="11" fill="#1e293b" font-weight="bold" data-max-width="290">Premium enterprise-focused solution</text>
+      </g>
+    </g>
+  </g>
+</svg>

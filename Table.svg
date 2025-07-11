@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <!-- Icons -->
+    <g id="analytics-icon">
+      <path d="M5,20 L10,10 L15,15 L20,5" fill="none" stroke="white" stroke-width="2"/>
+      <path d="M4,4 L4,20 L20,20" fill="none" stroke="white" stroke-width="2"/>
+    </g>
+    <g id="time-icon">
+      <circle cx="12" cy="12" r="10" fill="none" stroke="white" stroke-width="2"/>
+      <path d="M12,12 L12,6" stroke="white" stroke-width="2"/>
+      <path d="M12,12 L16,12" stroke="white" stroke-width="2"/>
+    </g>
+    <g id="cycle-icon">
+      <path d="M20,12 A8,8 0 1,1 4,12" fill="none" stroke="white" stroke-width="2"/>
+      <path d="M4,8 L4,12 L8,12" fill="none" stroke="white" stroke-width="2"/>
+    </g>
+    <g id="search-icon">
+      <circle cx="10" cy="10" r="7" fill="none" stroke="white" stroke-width="2"/>
+      <path d="M15,15 L20,20" stroke="white" stroke-width="2"/>
+    </g>
+  </defs>
+
+  <!-- Header Row -->
+  <g transform="translate(50, 50)">
+    <rect x="100" y="0" width="150" height="50" fill="#009688"/>
+    <rect x="250" y="0" width="150" height="50" fill="#00bcd4"/>
+    <rect x="400" y="0" width="150" height="50" fill="#4db6ac"/>
+    <rect x="550" y="0" width="150" height="50" fill="#5c6bc0"/>
+    
+    <text x="175" y="30" fill="white" text-anchor="middle" font-size="14">{{HEADER_1}}</text>
+    <text x="325" y="30" fill="white" text-anchor="middle" font-size="14">{{HEADER_2}}</text>
+    <text x="475" y="30" fill="white" text-anchor="middle" font-size="14">{{HEADER_3}}</text>
+    <text x="625" y="30" fill="white" text-anchor="middle" font-size="14">{{HEADER_4}}</text>
+  </g>
+
+  <!-- Icon Column -->
+  <g transform="translate(50, 100)">
+    <circle cx="50" cy="50" r="20" fill="#5c6bc0"/>
+    <circle cx="50" cy="150" r="20" fill="#4db6ac"/>
+    <circle cx="50" cy="250" r="20" fill="#00bcd4"/>
+    <circle cx="50" cy="350" r="20" fill="#009688"/>
+    
+    <use href="#analytics-icon" transform="translate(35, 35)"/>
+    <use href="#time-icon" transform="translate(35, 135)"/>
+    <use href="#cycle-icon" transform="translate(35, 235)"/>
+    <use href="#search-icon" transform="translate(35, 335)"/>
+  </g>
+
+  <!-- Content Cells -->
+  <g transform="translate(150, 100)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="150" height="100" fill="#f5f5f5"/>
+    <rect x="150" y="0" width="150" height="100" fill="#f5f5f5"/>
+    <rect x="300" y="0" width="150" height="100" fill="#f5f5f5"/>
+    <rect x="450" y="0" width="150" height="100" fill="#f5f5f5"/>
+
+    <text x="75" y="40" text-anchor="middle" fill="#333" font-size="12">{{CELL_R1_C1}}</text>
+    <text x="225" y="40" text-anchor="middle" fill="#333" font-size="12">{{CELL_R1_C2}}</text>
+    <text x="375" y="40" text-anchor="middle" fill="#333" font-size="12">{{CELL_R1_C3}}</text>
+    <text x="525" y="40" text-anchor="middle" fill="#333" font-size="12">{{CELL_R1_C4}}</text>
+
+    <!-- Row 2 -->
+    <g transform="translate(0, 100)">
+      <rect x="0" y="0" width="150" height="100" fill="#ffffff"/>
+      <rect x="150" y="0" width="150" height="100" fill="#ffffff"/>
+      <rect x="300" y="0" width="150" height="100" fill="#ffffff"/>
+      <rect x="450" y="0" width="150" height="100" fill="#ffffff"/>
+
+      <text x="75" y="40" text-anchor="middle" fill="#333" font-size="12">{{CELL_R2_C1}}</text>
+      <text x="225" y="40" text-anchor="middle" fill="#333" font-size="12">{{CELL_R2_C2}}</text>
+      <text x="375" y="40" text-anchor="middle" fill="#333" font-size="12">{{CELL_R2_C3}}</text>
+      <text x="525" y="40" text-anchor="middle" fill="#333" font-size="12">{{CELL_R2_C4}}</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(0, 200)">
+      <rect x="0" y="0" width="150" height="100" fill="#f5f5f5"/>
+      <rect x="150" y="0" width="150" height="100" fill="#f5f5f5"/>
+      <rect x="300" y="0" width="150" height="100" fill="#f5f5f5"/>
+      <rect x="450" y="0" width="150" height="100" fill="#f5f5f5"/>
+
+      <text x="75" y="40" text-anchor="middle" fill="#333" font-size="12">{{CELL_R3_C1}}</text>
+      <text x="225" y="40" text-anchor="middle" fill="#333" font-size="12">{{CELL_R3_C2}}</text>
+      <text x="375" y="40" text-anchor="middle" fill="#333" font-size="12">{{CELL_R3_C3}}</text>
+      <text x="525" y="40" text-anchor="middle" fill="#333" font-size="12">{{CELL_R3_C4}}</text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(0, 300)">
+      <rect x="0" y="0" width="150" height="100" fill="#ffffff"/>
+      <rect x="150" y="0" width="150" height="100" fill="#ffffff"/>
+      <rect x="300" y="0" width="150" height="100" fill="#ffffff"/>
+      <rect x="450" y="0" width="150" height="100" fill="#ffffff"/>
+
+      <text x="75" y="40" text-anchor="middle" fill="#333" font-size="12">{{CELL_R4_C1}}</text>
+      <text x="225" y="40" text-anchor="middle" fill="#333" font-size="12">{{CELL_R4_C2}}</text>
+      <text x="375" y="40" text-anchor="middle" fill="#333" font-size="12">{{CELL_R4_C3}}</text>
+      <text x="525" y="40" text-anchor="middle" fill="#333" font-size="12">{{CELL_R4_C4}}</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <!-- Grey Background for whole image-->
+  <rect x="0" y="0" width="1100" height="500" fill="#f0f0f0"/> 
+
+ <!-- Content Background - Grey for all except first column -->
+  <g>
+    <!-- White background for first column -->
+    <rect x="40" y="130" width="240" height="250" fill="white" rx="10"/>
+    <!-- Grey background for other columns -->
+    <rect x="300" y="110" width="680" height="298" fill="#f5f5f5" rx="10"/>
+  </g>
+  
+    <!-- Light Background for Content in 1st column -->
+  <rect x="40" y="109" width="239" height="302" fill="white" rx="10"/> 
+  
+  <!-- Header Row -->
+  <g transform="translate(50, 50)">
+    <rect x="-10" y="0" width="230" height="40" rx="10" fill="grey" style="filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.3));"/>
+    <rect x="230" y="0" width="240" height="40" rx="10" fill="#0066cc" style="filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.3));"/>
+    <rect x="480" y="0" width="240" height="40" rx="10" fill="#b8860b" style="filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.3));"/>
+    <rect x="730" y="0" width="200" height="40" rx="10" fill="#1abc9c" style="filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.3));"/>
+
+    <!--Headers-->
+    <text x="115" y="28" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">Company</text>
+    <text x="350" y="28" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">Target Market</text>
+    <text x="600" y="28" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">Key Features</text>
+    <text x="830" y="28" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">Pricing</text>
+  </g>
+
+
+
+  <!-- Product Rows -->
+
+  <!-- Company A -->
+  <g transform="translate(50, 110)">
+    <circle cx="25" cy="25" r="20" fill="#cce5ff"/>
+    <path d="M15,25 h20 M25,15 v20" stroke="#007bff" stroke-width="2"/>
+    <text x="60" y="30" fill="#333" font-size="14" data-max-width="80" text-anchor="start">{{COMPANY_A_NAME}}</text>
+
+    <text x="260" y="30" fill="#666" font-size="12" data-max-width="180" data-line-height="14" text-anchor="start">{{COMPANY_A_TARGET}}</text>
+
+    <text x="498" y="30" fill="#666" font-size="12" data-max-width="180" data-line-height="14" text-anchor="start">{{COMPANY_A_FEATURES}}</text>
+
+    <text x="768" y="30" fill="#666" font-size="12" data-max-width="180" data-line-height="14" text-anchor="start">{{COMPANY_A_PRICING}}</text>
+  </g>
+
+  <!-- Company B -->
+  <g transform="translate(50, 170)">
+    <circle cx="25" cy="25" r="20" fill="#ffd1dc"/>
+    <path d="M15,25 l10,10 l20,-20" stroke="#e83e8c" stroke-width="2"/>
+    <text x="60" y="30" fill="#333" font-size="14" data-max-width="80" text-anchor="start">{{COMPANY_B_NAME}}</text>
+
+    <text x="260" y="30" fill="#666" font-size="12" data-max-width="180" data-line-height="14" text-anchor="start">{{COMPANY_B_TARGET}}</text>
+
+    <text x="498" y="30" fill="#666" font-size="12" data-max-width="180" data-line-height="14" text-anchor="start">{{COMPANY_B_FEATURES}}</text>
+
+    <text x="768" y="30" fill="#666" font-size="12" data-max-width="180" data-line-height="14" text-anchor="start">{{COMPANY_B_PRICING}}</text>
+  </g>
+
+  <!-- Company C -->
+  <g transform="translate(50, 230)">
+    <circle cx="25" cy="25" r="20" fill="#d4edda"/>
+    <path d="M15,15 h20 v20 h-20 z" stroke="#28a745" stroke-width="2" fill="none"/>
+    <text x="60" y="30" fill="#333" font-size="14" data-max-width="80" text-anchor="start">{{COMPANY_C_NAME}}</text>
+
+    <text x="260" y="30" fill="#666" font-size="12" data-max-width="180" data-line-height="14" text-anchor="start">{{COMPANY_C_TARGET}}</text>
+
+    <text x="498" y="30" fill="#666" font-size="12" data-max-width="180" data-line-height="14" text-anchor="start">{{COMPANY_C_FEATURES}}</text>
+
+    <text x="768" y="30" fill="#666" font-size="12" data-max-width="180" data-line-height="14" text-anchor="start">{{COMPANY_C_PRICING}}</text>
+  </g>
+
+  <!-- Company D -->
+  <g transform="translate(50, 290)">
+    <circle cx="25" cy="25" r="20" fill="#ffe8cc"/>
+    <path d="M15,25 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0" stroke="#fd7e14" stroke-width="2" fill="none"/>
+    <text x="60" y="30" fill="#333" font-size="14" data-max-width="80" text-anchor="start">{{COMPANY_D_NAME}}</text>
+
+    <text x="260" y="30" fill="#666" font-size="12" data-max-width="180" data-line-height="14" text-anchor="start">{{COMPANY_D_TARGET}}</text>
+
+    <text x="498" y="30" fill="#666" font-size="12" data-max-width="180" data-line-height="14" text-anchor="start">{{COMPANY_D_FEATURES}}</text>
+
+    <text x="768" y="30" fill="#666" font-size="12" data-max-width="180" data-line-height="14" text-anchor="start">{{COMPANY_D_PRICING}}</text>
+  </g>
+
+
+
+  <!-- Row Separators -->
+  <g stroke="#e9ecef" stroke-width="1">
+    <line x1="40" y1="170" x2="940" y2="170"/>
+    <line x1="40" y1="230" x2="940" y2="230"/>
+    <line x1="40" y1="290" x2="940" y2="290"/>
+    <line x1="40" y1="350" x2="940" y2="350"/>
+  </g>
+</svg>

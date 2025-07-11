@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <!-- Title and Product Name -->
+  <text x="500" y="160" text-anchor="middle" font-size="24" font-weight="bold" fill="#333">{{TITLE}}</text>
+
+  <rect x="350" y="200" width="300" height="30" rx="15" fill="#ffc107"/>
+  <text x="500" y="220" text-anchor="middle" font-size="14" fill="white" font-weight="bold">{{SECTION_TITLE}}</text>
+
+  <!-- Middle Row -->
+  <g transform="translate(100, 300)">
+    <!-- Company -->
+    <rect x="0" y="0" width="180" height="50" rx="5" fill="#5c6bc0"/>
+    <text x="90" y="30" text-anchor="middle" font-size="13" fill="white" font-weight="bold">{{SECTION_1_TITLE}}</text>
+
+    <rect x="0" y="60" width="180" height="80" rx="5" fill="#f5f5f5"/>
+    <g transform="translate(8, 68)">
+      <!-- Improved spacing and responsive text container -->
+      <foreignObject x="0" y="0" width="164" height="74">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size: 11px; color: #333; padding: 6px; box-sizing: border-box; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; line-height: 1.4; word-wrap: break-word; hyphens: auto;">{{DESCRIPTION_1_LINE_1}}{{DESCRIPTION_1_LINE_2}}{{DESCRIPTION_1_LINE_3}}</div>
+      </foreignObject>
+    </g>
+
+    <!-- Their Positioning -->
+    <rect x="200" y="0" width="180" height="50" rx="5" fill="#7e57c2"/>
+    <text x="290" y="30" text-anchor="middle" font-size="13" fill="white" font-weight="bold">{{SECTION_2_TITLE}}</text>
+
+    <rect x="200" y="60" width="180" height="80" rx="5" fill="#f5f5f5"/>
+    <g transform="translate(208, 68)">
+      <foreignObject x="0" y="0" width="164" height="74">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size: 11px; color: #333; padding: 6px; box-sizing: border-box; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; line-height: 1.4; word-wrap: break-word; hyphens: auto;">{{DESCRIPTION_2_LINE_1}}{{DESCRIPTION_2_LINE_2}}{{DESCRIPTION_2_LINE_3}}</div>
+      </foreignObject>
+    </g>
+
+    <!-- Our Repositioning -->
+    <rect x="400" y="0" width="180" height="50" rx="5" fill="#ff7043"/>
+    <text x="490" y="30" text-anchor="middle" font-size="13" fill="white" font-weight="bold">{{SECTION_3_TITLE}}</text>
+
+    <rect x="400" y="60" width="180" height="80" rx="5" fill="#f5f5f5"/>
+    <g transform="translate(408, 68)">
+      <foreignObject x="0" y="0" width="164" height="74">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size: 11px; color: #333; padding: 6px; box-sizing: border-box; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; line-height: 1.4; word-wrap: break-word; hyphens: auto;">{{DESCRIPTION_3_LINE_1}}{{DESCRIPTION_3_LINE_2}}{{DESCRIPTION_3_LINE_3}}</div>
+      </foreignObject>
+    </g>
+
+    <!-- Target Market -->
+    <rect x="600" y="0" width="180" height="50" rx="5" fill="#ef5350"/>
+    <text x="690" y="30" text-anchor="middle" font-size="13" fill="white" font-weight="bold">{{SECTION_4_TITLE}}</text>
+
+    <rect x="600" y="60" width="180" height="80" rx="5" fill="#f5f5f5"/>
+    <g transform="translate(608, 68)">
+      <foreignObject x="0" y="0" width="164" height="74">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size: 11px; color: #333; padding: 6px; box-sizing: border-box; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; line-height: 1.4; word-wrap: break-word; hyphens: auto;">{{DESCRIPTION_4_LINE_1}}{{DESCRIPTION_4_LINE_2}}{{DESCRIPTION_4_LINE_3}}</div>
+      </foreignObject>
+    </g>
+  </g>
+
+  <!-- Bottom Row -->
+  <g transform="translate(100, 450)">
+    <!-- Market Presence -->
+    <rect x="0" y="0" width="180" height="50" rx="5" fill="#5c6bc0"/>
+    <text x="90" y="30" text-anchor="middle" font-size="13" fill="white" font-weight="bold">{{SECTION_5_TITLE}}</text>
+
+    <rect x="0" y="60" width="180" height="80" rx="5" fill="#f5f5f5"/>
+    <g transform="translate(8, 68)">
+      <foreignObject x="0" y="0" width="164" height="74">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size: 11px; color: #333; padding: 6px; box-sizing: border-box; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; line-height: 1.4; word-wrap: break-word; hyphens: auto;">{{DESCRIPTION_5_LINE_1}}{{DESCRIPTION_5_LINE_2}}{{DESCRIPTION_5_LINE_3}}</div>
+      </foreignObject>
+    </g>
+
+    <!-- Quick Tips -->
+    <rect x="200" y="0" width="180" height="50" rx="5" fill="#7e57c2"/>
+    <text x="290" y="30" text-anchor="middle" font-size="13" fill="white" font-weight="bold">{{SECTION_6_TITLE}}</text>
+
+    <rect x="200" y="60" width="180" height="80" rx="5" fill="#f5f5f5"/>
+    <g transform="translate(208, 68)">
+      <foreignObject x="0" y="0" width="164" height="74">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size: 11px; color: #333; padding: 6px; box-sizing: border-box; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; line-height: 1.4; word-wrap: break-word; hyphens: auto;">{{DESCRIPTION_6_LINE_1}}{{DESCRIPTION_6_LINE_2}}{{DESCRIPTION_6_LINE_3}}</div>
+      </foreignObject>
+    </g>
+
+    <!-- How To Win -->
+    <rect x="400" y="0" width="180" height="50" rx="5" fill="#ff7043"/>
+    <text x="490" y="30" text-anchor="middle" font-size="13" fill="white" font-weight="bold">{{SECTION_7_TITLE}}</text>
+
+    <rect x="400" y="60" width="180" height="80" rx="5" fill="#f5f5f5"/>
+    <g transform="translate(408, 68)">
+      <foreignObject x="0" y="0" width="164" height="74">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size: 11px; color: #333; padding: 6px; box-sizing: border-box; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; line-height: 1.4; word-wrap: break-word; hyphens: auto;">{{DESCRIPTION_7_LINE_1}}{{DESCRIPTION_7_LINE_2}}{{DESCRIPTION_7_LINE_3}}</div>
+      </foreignObject>
+    </g>
+
+    <!-- When To Walk Away -->
+    <rect x="600" y="0" width="180" height="50" rx="5" fill="#ef5350"/>
+    <text x="690" y="30" text-anchor="middle" font-size="13" fill="white" font-weight="bold">{{SECTION_8_TITLE}}</text>
+
+    <rect x="600" y="60" width="180" height="80" rx="5" fill="#f5f5f5"/>
+    <g transform="translate(608, 68)">
+      <foreignObject x="0" y="0" width="164" height="74">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-size: 11px; color: #333; padding: 6px; box-sizing: border-box; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; line-height: 1.4; word-wrap: break-word; hyphens: auto;">{{DESCRIPTION_8_LINE_1}}{{DESCRIPTION_8_LINE_2}}{{DESCRIPTION_8_LINE_3}}</div>
+      </foreignObject>
+    </g>
+  </g>
+</svg>
+ 

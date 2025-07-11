@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350">
+
+<!-- Lines dividing columns -->
+<line x1="230" y1="60" x2="230" y2="320" stroke="black" stroke-width="1" />
+<line x1="430" y1="60" x2="430" y2="320" stroke="black" stroke-width="1" />
+<line x1="630" y1="60" x2="630" y2="320" stroke="black" stroke-width="1" />
+<line x1="830" y1="60" x2="830" y2="320" stroke="black" stroke-width="1" />
+
+  <!-- Phase Arrows -->
+  <g transform="translate(50, 50)">
+    <!-- Phase 1 -->
+    <path d="M0,0 L180,0 L200,25 L180,50 L0,50 L20,25 Z" fill="#0d47a1"/>
+    <text x="90" y="20" fill="white" text-anchor="middle" font-size="14">{{PHASE_1}}</text>
+
+    <!-- Phase 2 -->
+    <path d="M180,0 L380,0 L400,25 L380,50 L180,50 L200,25 Z" fill="#1565c0"/>
+    <text x="290" y="20" fill="white" text-anchor="middle" font-size="14">{{PHASE_2}}</text>
+
+    <!-- Phase 3 -->
+    <path d="M380,0 L580,0 L600,25 L580,50 L380,50 L400,25 Z" fill="#1976d2"/>
+    <text x="490" y="20" fill="white" text-anchor="middle" font-size="14">{{PHASE_3}}</text>
+
+    <!-- Phase 4 -->
+    <path d="M580,0 L780,0 L800,25 L780,50 L580,50 L600,25 Z" fill="#1e88e5"/>
+    <text x="690" y="20" fill="white" text-anchor="middle" font-size="14">{{PHASE_4}}</text>
+
+    <!-- Phase 5 -->
+    <path d="M780,0 L980,0 L1000,25 L980,50 L780,50 L800,25 Z" fill="#2196f3"/>
+    <text x="890" y="20" fill="white" text-anchor="middle" font-size="14">{{PHASE_5}}</text>
+  </g>
+
+  <!-- Deliverables - Now centered under each phase -->
+  <g transform="translate(50, 100)">
+    <!-- Phase 1 Deliverables -->
+    <g transform="translate(90, 0)">
+      <text x="0" y="40" text-anchor="middle" font-size="11">{{DELIVERABLE_1}}</text>
+      <text x="0" y="110" text-anchor="middle" font-size="11">{{DELIVERABLE_2}}</text>
+      <text x="0" y="180" text-anchor="middle" font-size="11">{{DELIVERABLE_3}}</text>
+    </g>
+
+    <!-- Phase 2 Deliverables -->
+    <g transform="translate(290, 0)">
+      <text x="0" y="40" text-anchor="middle" font-size="11">{{DELIVERABLE_4}}</text>
+      <text x="0" y="110" text-anchor="middle" font-size="11">{{DELIVERABLE_5}}</text>
+      <text x="0" y="180" text-anchor="middle" font-size="11">{{DELIVERABLE_6}}</text>
+    </g>
+
+    <!-- Phase 3 Deliverables -->
+    <g transform="translate(490, 0)">
+      <text x="0" y="40" text-anchor="middle" font-size="11">{{DELIVERABLE_7}}</text>
+      <text x="0" y="110" text-anchor="middle" font-size="11">{{DELIVERABLE_8}}</text>
+      <text x="0" y="180" text-anchor="middle" font-size="11">{{DELIVERABLE_9}}</text>
+    </g>
+
+    <!-- Phase 4 Deliverables -->
+    <g transform="translate(690, 0)">
+      <text x="0" y="40" text-anchor="middle" font-size="11">{{DELIVERABLE_10}}</text>
+      <text x="0" y="110" text-anchor="middle" font-size="11">{{DELIVERABLE_11}}</text>
+      <text x="0" y="180" text-anchor="middle" font-size="11">{{DELIVERABLE_12}}</text>
+    </g>
+
+    <!-- Phase 5 Deliverables -->
+    <g transform="translate(890, 0)">
+      <text x="0" y="40" text-anchor="middle" font-size="11">{{DELIVERABLE_13}}</text>
+      <text x="0" y="110" text-anchor="middle" font-size="11">{{DELIVERABLE_14}}</text>
+      <text x="0" y="180" text-anchor="middle" font-size="11">{{DELIVERABLE_15}}</text>
+    </g>
+  </g>
+
+
+</svg>
